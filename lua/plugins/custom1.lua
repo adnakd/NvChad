@@ -6,6 +6,9 @@ return {
       dotfiles = true, -- Hides all dotfiles by default
       custom = { "^.git$" }, -- Specifically ensures .git is hidden
     },
+    view = {
+      width = "25%",
+    }
   },
 }
 
